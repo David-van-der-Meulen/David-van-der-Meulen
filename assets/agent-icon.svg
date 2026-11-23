@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="230" viewBox="0 0 220 230" role="img" aria-labelledby="iconTitle iconDesc">
+  <title id="iconTitle">Code und Sprache</title>
+  <desc id="iconDesc">Code-Klammern in einer Sprechblase, für Chat- und Sprachagent.</desc>
+  <style>
+    @keyframes drip {
+      0%, 18% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(22px); opacity: 0; }
+    }
+    .drip {
+      animation: drip 2.6s ease-in infinite;
+      transform-box: fill-box;
+      transform-origin: 50% 0%;
+    }
+    .d2 { animation-duration: 3.2s; animation-delay: -1.3s; }
+    @media (prefers-reduced-motion: reduce) {
+      .drip { animation: none; }
+    }
+  </style>
+  <path fill="#39d353" d="M168.0,-35.6 C178.8,-37.3 199.1,-18.8 204.8,-7.9 C210.6,3.0 200.3,17.9 202.3,30.0 C204.3,42.0 219.8,55.1 217.0,64.3 C214.3,73.5 196.7,82.3 185.8,85.0 C174.9,87.7 164.7,83.0 151.8,80.6 C138.9,78.2 115.6,79.5 108.5,70.3 C101.4,61.2 103.9,36.9 109.1,25.6 C114.4,14.3 130.1,12.7 139.9,2.5 C149.7,-7.7 157.2,-33.9 168.0,-35.6 Z"/>
+  <path fill="#58a6ff" d="M40.0,127.2 C53.6,123.6 79.7,115.3 88.8,122.8 C98.0,130.3 90.7,156.8 95.1,172.1 C99.5,187.4 117.6,202.2 115.2,214.4 C112.8,226.7 93.1,234.9 80.5,245.8 C68.0,256.7 51.4,282.8 40.0,279.9 C28.6,277.0 18.8,241.3 12.0,228.5 C5.3,215.7 1.7,211.8 -0.5,203.1 C-2.7,194.5 -2.4,186.4 -1.2,176.6 C0.1,166.9 0.2,152.9 7.0,144.6 C13.9,136.4 26.4,130.9 40.0,127.2 Z"/>
+  <circle cx="196" cy="96" r="7" fill="#39d353"/>
+  <circle cx="208" cy="112" r="3.5" fill="#39d353"/>
+  <circle cx="24" cy="118" r="5" fill="#58a6ff"/>
+  <circle cx="14" cy="132" r="2.6" fill="#58a6ff"/>
+  <g class="drip" fill="#58a6ff">
+    <path d="M186,78 C194,78 197,86 197,93 C197,99 192,103 186,112 C180,103 175,99 175,93 C175,86 178,78 186,78 Z"/>
+  </g>
+  <g class="drip d2" fill="#39d353">
+    <path d="M204,62 C210,62 213,68 213,73 C213,77 210,80 204,88 C198,80 195,77 195,73 C195,68 198,62 204,62 Z"/>
+  </g>
+  <path fill="#0d1117" stroke="#58a6ff" stroke-width="7" stroke-linejoin="round" d="M78,148 L58,186 L112,148 Z"/>
+  <rect x="36" y="32" width="140" height="108" rx="30" fill="#0d1117" stroke="#58a6ff" stroke-width="7"/>
+  <path fill="none" stroke="#39d353" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M78,62 L58,86 L78,110 M118,58 L96,114 M132,62 L152,86 L132,110"/>
+</svg>
