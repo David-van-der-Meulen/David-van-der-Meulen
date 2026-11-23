@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="170" viewBox="0 0 480 170" role="img">
+  <title>Beitragskalender</title>
+  <rect width="480" height="170" rx="6" fill="#0d1117"/>
+  <rect width="480" height="3" fill="#39d353"/>
+  <rect x="1" y="1" width="478" height="168" rx="6" fill="none" stroke="#30363d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="28" y="36" fill="#39d353" font-size="12">// metrics · isocalendar</text>
+    <text x="28" y="72" fill="#c9d1d9" font-size="22">Beitragskalender</text>
+    <text x="28" y="108" fill="#8b949e" font-size="14">Isometrische Ansicht, Serie und Commits pro Tag.</text>
+    <text x="28" y="130" fill="#8b949e" font-size="14">Ersetzt diese Karte nach dem ersten Metrics-Lauf.</text>
+  </g>
+</svg>

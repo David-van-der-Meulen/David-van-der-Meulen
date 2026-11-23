@@ -30,7 +30,7 @@ jobs:
           fail_on_error: true
           path: assets/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=false&border_radius=12&border_color=1f2a3a&bg_color=0d1117&title_color=22d3ee&icon_color=f59e0b&text_color=e6edf3&locale=de"
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=false&border_radius=6&border_color=30363d&bg_color=0d1117&title_color=39d353&icon_color=58a6ff&text_color=c9d1d9&locale=de"
 
       - name: SVG committen
         run: |

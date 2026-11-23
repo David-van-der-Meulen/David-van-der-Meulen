@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">David van der Meulens GitHub-Statistiken, Rank: C</title>
-        <desc id="descId">Insgesamt erhaltene Sterne: 0, Anzahl Commits  (Letztes Jahr) : 2, PRs Insgesamt: 0, Anzahl Issues: 0, Beigetragen zu (letztes Jahr): 0</desc>
+        <desc id="descId">Insgesamt erhaltene Sterne: 0, Anzahl Commits  (Letztes Jahr) : 3, PRs Insgesamt: 1, Anzahl Issues: 0, Beigetragen zu (letztes Jahr): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #22d3ee;
+            fill: #39d353;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #e6edf3;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #f59e0b;
+      fill: #58a6ff;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #22d3ee;
+      stroke: #39d353;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #22d3ee;
+      stroke: #39d353;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 251.09577925422585;
+        stroke-dashoffset: 250.1154188272438;
       }
     }
   
@@ -107,9 +107,9 @@
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="12"
+          rx="6"
           height="99%"
-          stroke="#1f2a3a"
+          stroke="#30363d"
           width="436.7812500000001"
           fill="#0d1117"
           stroke-opacity="1"
@@ -166,7 +166,7 @@
         x="269.01"
         y="12.5"
         data-testid="commits"
-      >2</text>
+      >3</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -181,7 +181,7 @@
         x="269.01"
         y="12.5"
         data-testid="prs"
-      >0</text>
+      >1</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">

@@ -1,57 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="bannerTitle bannerDesc">
-  <title id="bannerTitle">David van der Meulen</title>
-  <desc id="bannerDesc">Schüler im Fachabitur Informatik und Jahrespraktikant in der IT. Ziel: Cybersecurity, Pentesting und Red Team.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#071018"/>
-      <stop offset="58%" stop-color="#0c1726"/>
-      <stop offset="100%" stop-color="#12160f"/>
-    </linearGradient>
-    <radialGradient id="glowCyan" cx="86%" cy="42%" r="42%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.34"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowAmber" cx="8%" cy="100%" r="38%">
-      <stop offset="0%" stop-color="#f5b942" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#f5b942" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#9ec9db" stroke-opacity="0.09"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="280" fill="url(#bg)"/>
-  <rect width="1200" height="280" fill="url(#grid)"/>
-  <rect width="1200" height="280" fill="url(#glowCyan)"/>
-  <rect width="1200" height="280" fill="url(#glowAmber)"/>
-  <rect width="6" height="280" fill="#22d3ee"/>
-  <g fill="none" stroke="#22d3ee" stroke-linecap="round">
-    <circle cx="1010" cy="140" r="36" stroke-opacity="0.85" stroke-width="1.4"/>
-    <circle cx="1010" cy="140" r="68" stroke-opacity="0.38" stroke-width="1.2"/>
-    <circle cx="1010" cy="140" r="100" stroke-opacity="0.18" stroke-width="1"/>
-    <path d="M1010 36V244M906 140H1114" stroke-opacity="0.22" stroke-width="1"/>
-    <path d="M1010 84L1058.5 112L1058.5 168L1010 196L961.5 168L961.5 112Z" stroke="#f5b942" stroke-opacity="0.9" stroke-width="1.6"/>
-    <path d="M1010 112L1034.2 126L1034.2 154L1010 168L985.8 154L985.8 126Z" stroke-opacity="0.7" stroke-width="1.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-labelledby="title desc">
+  <title id="title">David van der Meulen</title>
+  <desc id="desc">Schüler im Fachabitur Informatik, Jahrespraktikum in der IT. Ziel: Pentesting und Red Team.</desc>
+  <rect width="1200" height="228" fill="#0d1117"/>
+  <rect width="1200" height="3" fill="#39d353"/>
+  <rect y="225" width="1200" height="3" fill="#21262d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="48" y="42" fill="#39d353" font-size="13">// david-van-der-meulen</text>
+    <text x="48" y="88" fill="#c9d1d9" font-size="34">David van der Meulen</text>
+    <text x="48" y="120" fill="#8b949e" font-size="15">schüler · fachabitur informatik · jahrespraktikum it</text>
+    <text x="48" y="146" fill="#58a6ff" font-size="15">ziel: pentesting / red team · hack the box</text>
   </g>
-  <g fill="#22d3ee">
-    <circle cx="1010" cy="140" r="3.5"/>
-    <circle cx="1083.3" cy="113.3" r="3.2" fill="#f5b942"/>
-    <circle cx="944.2" cy="116.1" r="2.4" fill-opacity="0.8"/>
-    <circle cx="986" cy="181.6" r="2.6" fill-opacity="0.9"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" text-anchor="middle">
+    <rect x="48" y="168" width="128" height="32" rx="6" fill="#0d1117" stroke="#39d353"/>
+    <text x="112" y="188" fill="#39d353">red team</text>
+    <rect x="188" y="168" width="156" height="32" rx="6" fill="#0d1117" stroke="#30363d"/>
+    <text x="266" y="188" fill="#c9d1d9">hack the box</text>
+    <rect x="356" y="168" width="132" height="32" rx="6" fill="#0d1117" stroke="#30363d"/>
+    <text x="422" y="188" fill="#c9d1d9">lokale ki</text>
+    <rect x="500" y="168" width="120" height="32" rx="6" fill="#0d1117" stroke="#30363d"/>
+    <text x="560" y="188" fill="#c9d1d9">homelab</text>
   </g>
-  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
-    <text x="56" y="58" fill="#22d3ee" font-size="13" font-weight="700" letter-spacing="3.5">GITHUB · IT · CYBERSECURITY</text>
-    <text x="56" y="112" fill="#f4f7fb" font-size="48" font-weight="700">David van der Meulen</text>
-    <text x="56" y="156" fill="#d5deea" font-size="18">Schüler · Fachabitur Informatik · Jahrespraktikant in der IT</text>
-    <text x="56" y="186" fill="#8ea0b8" font-size="15">Ziel: Cybersecurity, Pentesting und Red Team</text>
-  </g>
-  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="650" text-anchor="middle">
-    <rect x="56" y="214" width="124" height="34" rx="17" fill="#102033" stroke="#22d3ee" stroke-opacity="0.85"/>
-    <text x="118" y="236" fill="#f5b942">Red Team</text>
-    <rect x="192" y="214" width="158" height="34" rx="17" fill="#102033" stroke="#245066"/>
-    <text x="271" y="236" fill="#e7f7fb">Hack The Box</text>
-    <rect x="362" y="214" width="132" height="34" rx="17" fill="#102033" stroke="#245066"/>
-    <text x="428" y="236" fill="#e7f7fb">Lokale KI</text>
-    <rect x="506" y="214" width="124" height="34" rx="17" fill="#102033" stroke="#245066"/>
-    <text x="568" y="236" fill="#e7f7fb">Homelab</text>
+  <rect x="820" y="36" width="332" height="156" rx="6" fill="#010409" stroke="#30363d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text x="840" y="64" fill="#39d353">$</text>
+    <text x="856" y="64" fill="#c9d1d9">whoami</text>
+    <text x="840" y="88" fill="#58a6ff">david</text>
+    <text x="840" y="118" fill="#39d353">$</text>
+    <text x="856" y="118" fill="#c9d1d9">focus --now</text>
+    <text x="840" y="142" fill="#8b949e">red-team</text>
+    <text x="928" y="142" fill="#8b949e">local-llm</text>
+    <text x="1024" y="142" fill="#8b949e">homelab</text>
+    <text x="840" y="170" fill="#39d353">$</text>
+    <rect x="856" y="160" width="8" height="14" fill="#39d353"/>
   </g>
 </svg>
