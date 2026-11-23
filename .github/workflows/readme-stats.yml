@@ -1,0 +1,45 @@
+name: GitHub-Statistiken
+
+# Schreibt assets/github-stats.svg ins Repository, damit die Profil-README
+# nicht die öffentliche, oft rate-limitierte Instanz von github-readme-stats aufruft.
+# Es reicht das eingebaute GITHUB_TOKEN (nur öffentliche Zahlen). Kein weiteres Secret.
+# Schlägt der Lauf fehl, bleibt die bereits committete SVG-Datei unverändert.
+
+on:
+  schedule:
+    - cron: "15 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats
+  cancel-in-progress: true
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Statistik-Karte erzeugen
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          fail_on_error: true
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=false&border_radius=12&border_color=1f2a3a&bg_color=0d1117&title_color=22d3ee&icon_color=f59e0b&text_color=e6edf3&locale=de"
+
+      - name: SVG committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          if git diff --cached --quiet; then
+            echo "Keine Änderung an der Statistik-Karte."
+            exit 0
+          fi
+          git commit -m "chore: aktualisiere GitHub-Statistiken [Skip GitHub Action]"
+          git push
