@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="metricsTitle metricsDesc">
+  <title id="metricsTitle">GitHub Metrics</title>
+  <desc id="metricsDesc">Kalender, Sprachen und Aktivität. Die Grafik wird täglich im Repository erzeugt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="100%" stop-color="#101a16"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#9ec9db" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="278" rx="18" fill="none" stroke="#1e3444"/>
+  <rect width="6" height="280" fill="#22d3ee"/>
+  <circle cx="40" cy="36" r="5" fill="#f43f5e"/>
+  <circle cx="58" cy="36" r="5" fill="#f5b942"/>
+  <circle cx="76" cy="36" r="5" fill="#22c55e"/>
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+    <text x="100" y="42" fill="#8ea0b8" font-size="14">david@github:~/metrics</text>
+    <text x="40" y="104" fill="#f4f7fb" font-size="36" font-weight="700">GitHub Metrics</text>
+    <text x="40" y="146" fill="#22d3ee" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ render --template terminal</text>
+    <text x="40" y="186" fill="#d5deea" font-size="18">Kalender · Sprachen · Aktivität</text>
+    <text x="40" y="220" fill="#8ea0b8" font-size="15">Täglich erzeugt und in diesem Repository gespeichert.</text>
+  </g>
+  <g fill="none" stroke="#22d3ee" stroke-linecap="round">
+    <circle cx="1010" cy="150" r="34" stroke-opacity="0.8" stroke-width="1.4"/>
+    <circle cx="1010" cy="150" r="62" stroke-opacity="0.35" stroke-width="1.2"/>
+    <circle cx="1010" cy="150" r="90" stroke-opacity="0.16" stroke-width="1"/>
+    <path d="M1010 56V244M916 150H1104" stroke-opacity="0.2"/>
+    <path d="M1010 104L1052 126L1052 174L1010 196L968 174L968 126Z" stroke="#f5b942" stroke-opacity="0.9" stroke-width="1.5"/>
+  </g>
+  <circle cx="1010" cy="150" r="3.2" fill="#22d3ee"/>
+  <circle cx="1072" cy="118" r="3" fill="#f5b942"/>
+</svg>
